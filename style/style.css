@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+    font-family: 'Adelia' ;
+    src: url('../fontes/ADELIA.otf') format('opentype');
+}
+
+body {
+    background-color:#6fad71 ;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    display: block;
+    max-width: 700px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Adelia';
+    text-align: center;
+    font-size: 50px;
+    color: #0f501c;
+    padding-top: 30px;
+
+}
+
+img {
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'Adelia';
+    color: #0f501c;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-top: 30px;
+    margin-left:40px ;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    margin: 40px;
+    
+   
+    
+}
+a {
+
+
+    text-decoration: none;
+    color: #0f501c;
+
+
+}
+
+
+a:hover {
+    color: #6fad71;
+}
+
+
+
+
+
+
